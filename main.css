@@ -26,35 +26,47 @@ body:hover{
 
 #info {
     width: 25vw;
-    height: 75vh;
-    margin-top: 5%;
-    margin-left: 5vw;
-    position: fixed;
-    z-index: 100;
-    text-align: left;
-    font-size: 50px;
+    height: 80vh;
     color: white;
-    padding-top: 15vh;
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+    z-index: 100;
     pointer-events:none;
     font-family: "Trebuchet MS";
-  }
+    text-align: left;
+    padding: 0px 0;
+    font-size: 2vw;
+}
 
-  #info2 {
-    right: 3%;
+#info2 {
     width: 25vw;
-    height: 75vh;
-    margin-top: 5%;
-    margin-right: 5vw;
-    position: fixed;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    right: 10vh;
     z-index: 100;
-    text-align: left;
-    font-size: 30px;
     color: white;
-    padding-top: 15vh;
     pointer-events:none;
     font-family: "Trebuchet MS";
-    border-color: white;
-  }
+    text-align: left;
+    padding: 0px 0;
+    font-size: 1.5vw;
+}
+
+#text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#text2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 #backButton {
     background-color: transparent;
@@ -155,13 +167,13 @@ body:hover{
     top: 0;
     left: 0;
     outline: none;
-    z-index: 4;
+    z-index: 1;
 }
 
 #canvas {
     pointer-events:none;
     position: fixed;
-    z-index: 5
+    z-index: 
 }
 
 .unselectable {
